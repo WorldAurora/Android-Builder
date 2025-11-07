@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi9KernelPoweredBySeparate",
-      "repo": "https://github.com/Separatee/AllinOneKernel",
-      "branch": "main",
-      "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+      "name": "oneplus13",
+      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8750",
+      "branch": "lineage-23.0",
+      "device": "dodge",
+      "defconfig": "vendor/oplus/sun_perf.config"
     },
     "toolchains": [
       {
@@ -26,10 +26,10 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": true
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": false
   }
 ]
